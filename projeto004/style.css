@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(255,0,100);
+    color: blue
+}
+
+p{
+    font-weight: bold;
+    background-color: yellow; 
+    text-align: center;
+    color: brown;
+    text-decoration:line-through;
+    text-transform: uppercase;
+    text-indent: 1.5cm;
+}
