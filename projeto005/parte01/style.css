@@ -1,0 +1,41 @@
+li{
+    list-style-type: upper-latin;
+}
+
+p{
+    background: gray;
+    color: white;
+}
+
+#primeiro{
+    background: green;
+    color: pink;
+}
+/* exemplo de comentario CSS   */
+.corpo{
+    background: blueviolet;
+    font-style: italic;
+}
+
+h2.corpo{
+    background: brown;
+    color:aqua
+}
+
+a:link{
+    background-color: yellow;
+}
+
+a:hover{
+    background-color: chocolate;
+    color: white;
+}
+
+a:active{
+    background-color: blue;
+    color: white;
+}
+
+a:visited{
+    background-color: gray;
+}
