@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos de imagens</title>
+</head>
+<body>
+    <h1>Imagem diferente para cada tamanho de tele</h1>
+    <picture>
+        <source media="(max-width: 310px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width:610px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" >
+    </picture>
+</body>
+</html>
