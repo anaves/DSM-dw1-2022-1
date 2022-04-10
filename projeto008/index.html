@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <h1>Reproduzir audio</h1>
     <p><em>Reproducao de audios no HTML 5</em></p>
-    <audio preload="metadata" controls loop>
+    <p><strong>Adicione um arquivo com extensao <code>.mp3</code> ou <code>.ogg</code></strong> no diretorio midias</p>
+    <audio preload="metadata" autoplay controls loop>
         <source src="midias/audio.mp3" type="audio/mpeg">
         <source src="midias/audio.ogg" type="audio/ogg">
         <p>Seu navegador nao consegue reproduzir o audio <a href="midias/audio.mp3">Clique para baixar</a></p>
