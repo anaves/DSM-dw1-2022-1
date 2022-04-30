@@ -1,0 +1,63 @@
+header #topo{
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+}
+header h1{
+    width: 100%;
+    padding: 31.2px;
+}
+nav{
+    background-color: #00adef;
+}
+nav a:hover{
+    color: white;
+    background-color: #4571b0;
+}
+nav a{
+    color: black;
+}
+main{
+    background-color: #eee;
+    color: #7171ea;
+}
+h3{
+    border: 4px red dotted;
+}
+footer{
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+}
+header p{
+    text-align: center;
+}
+figure img{
+    width: 60%;
+    height: 60%;
+}
+figure{
+    position: relative;
+    border: 8px solid rgb(154, 114, 192);
+    box-shadow: 1px 1px 4px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure:hover figcaption{
+    opacity: 1;
+}
