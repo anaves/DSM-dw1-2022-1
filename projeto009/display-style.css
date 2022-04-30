@@ -1,0 +1,25 @@
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    display: flex;
+}
+p{
+    margin: 0;
+}
+.primeira{
+    width: 33.33%;
+    height: 150px;
+    background-color: chartreuse;
+    
+}
+.segunda{
+    width: 33.33%;
+    height: 150px;
+    background-color: yellow;
+    
+}
+.terceira{
+    width: 33.33%;
+    height: 150px;
+    background-color: deepskyblue;
+}
